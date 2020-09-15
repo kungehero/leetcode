@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  algorithms_in_go:
+    image: algorithms_in_go
+    build: .
+    ports:
+      - 3000
